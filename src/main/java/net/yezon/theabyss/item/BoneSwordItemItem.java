@@ -29,11 +29,11 @@ public class BoneSwordItemItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 40f;
+				return 1.1f;
 			}
 
 			public float getAttackDamage() {
-				return 2.6f;
+				return 1.6f;
 			}
 
 			public int getHarvestLevel() {
