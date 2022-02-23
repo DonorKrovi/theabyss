@@ -68,7 +68,7 @@ public class HammerOfAbyssItem extends TheAbyss.Processor {
 				ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 				builder.putAll(super.getAttributeModifiers(equipmentSlot));
 				builder.put(Attributes.ATTACK_DAMAGE,
-						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Tool modifier", 24f, AttributeModifier.Operation.ADDITION));
+						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Tool modifier", 14f, AttributeModifier.Operation.ADDITION));
 				builder.put(Attributes.ATTACK_SPEED,
 						new AttributeModifier(ATTACK_SPEED_MODIFIER, "Tool modifier", -3, AttributeModifier.Operation.ADDITION));
 				return builder.build();
