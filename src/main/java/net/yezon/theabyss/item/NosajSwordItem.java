@@ -37,11 +37,11 @@ public class NosajSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 11f;
+				return 40f;
 			}
 
 			public float getAttackDamage() {
-				return 8f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
