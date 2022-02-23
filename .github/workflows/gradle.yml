@@ -23,5 +23,5 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v2
       with:
-        name: c2me-artifact
+        name: c2me-artifact1
         path: '/build/libs/'
