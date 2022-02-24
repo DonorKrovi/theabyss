@@ -55,7 +55,7 @@ public class NosajSwordItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -1.0f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 1, -1.3f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 			@Override
 			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
 				super.inventoryTick(itemstack, world, entity, slot, selected);
