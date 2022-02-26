@@ -33,7 +33,7 @@ public class BoneSwordItemItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 2.6f;
+				return 1.2f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class BoneSwordItemItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(FixedBoneItem.block));
 			}
-		}, 3, -1.9f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.3f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 		}.setRegistryName("bone_sword_item"));
 	}
 }
