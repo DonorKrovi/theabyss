@@ -75,7 +75,7 @@ public class FusionedAberytheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.5f;
+				return 0.2f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(SlimeFusionTabItemGroup.tab)) {
