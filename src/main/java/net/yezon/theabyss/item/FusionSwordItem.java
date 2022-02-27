@@ -33,7 +33,7 @@ public class FusionSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 8.2f;
+				return 6.2f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class FusionSwordItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(FusionIngotItem.block));
 			}
-		}, 3, -1.8f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.6f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 		}.setRegistryName("fusion_sword"));
 	}
 }
