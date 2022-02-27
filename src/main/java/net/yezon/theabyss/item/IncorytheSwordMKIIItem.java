@@ -33,7 +33,7 @@ public class IncorytheSwordMKIIItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 15f;
+				return 8f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class IncorytheSwordMKIIItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(IncorytheGemItem.block));
 			}
-		}, 3, -1.5f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.7f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 		}.setRegistryName("incorythe_sword_mkii"));
 	}
 }
