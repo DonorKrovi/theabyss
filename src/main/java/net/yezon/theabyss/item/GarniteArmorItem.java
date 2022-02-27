@@ -43,7 +43,7 @@ public class GarniteArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{5, 7, 6, 4}[slot.getIndex()];
+				return new int[]{5, 3, 6, 4}[slot.getIndex()];
 			}
 
 			@Override
