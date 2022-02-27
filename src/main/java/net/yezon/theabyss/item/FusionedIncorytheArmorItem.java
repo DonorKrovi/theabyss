@@ -56,7 +56,7 @@ public class FusionedIncorytheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{8, 10, 10, 8}[slot.getIndex()];
+				return new int[]{3, 9, 6, 4}[slot.getIndex()];
 			}
 
 			@Override
@@ -82,12 +82,12 @@ public class FusionedIncorytheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public float getToughness() {
-				return 10f;
+				return 4f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 1.2f;
+				return 1f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(SlimeFusionTabItemGroup.tab)) {
