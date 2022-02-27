@@ -33,7 +33,7 @@ public class FusionHoeItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 5.5f;
+				return 0f;
 			}
 
 			public int getHarvestLevel() {
