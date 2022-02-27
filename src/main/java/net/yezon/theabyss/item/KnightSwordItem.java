@@ -55,7 +55,7 @@ public class KnightSwordItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(KnightIngotItem.block));
 			}
-		}, 3, -0.8f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.9f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 			@Override
 			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
 				super.inventoryTick(itemstack, world, entity, slot, selected);
