@@ -33,7 +33,7 @@ public class UnoritheShovelItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 8.1f;
+				return 6.1f;
 			}
 
 			public int getHarvestLevel() {
