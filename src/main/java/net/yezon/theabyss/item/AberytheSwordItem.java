@@ -33,7 +33,7 @@ public class AberytheSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 4.4f;
+				return 3.5f;
 			}
 
 			public int getHarvestLevel() {
