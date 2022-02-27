@@ -47,7 +47,7 @@ public class IncorytheSwordItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(IncorytheGemItem.block));
 			}
-		}, 3, -1.5f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.5f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 		}.setRegistryName("incorythe_sword"));
 	}
 }
