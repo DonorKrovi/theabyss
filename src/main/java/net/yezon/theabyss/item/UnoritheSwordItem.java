@@ -33,7 +33,7 @@ public class UnoritheSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 12f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class UnoritheSwordItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(UnoritheIngotItem.block));
 			}
-		}, 3, -1.4f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 		}.setRegistryName("unorithe_sword"));
 	}
 }
