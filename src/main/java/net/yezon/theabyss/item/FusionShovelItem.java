@@ -47,7 +47,7 @@ public class FusionShovelItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(FusionIngotItem.block));
 			}
-		}, 1, -1f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("fusion_shovel"));
 	}
 }
