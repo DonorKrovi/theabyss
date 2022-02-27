@@ -47,7 +47,7 @@ public class AbyssSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 15f;
+				return 12f;
 			}
 
 			public int getHarvestLevel() {
