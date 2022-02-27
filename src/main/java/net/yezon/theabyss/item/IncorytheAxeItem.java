@@ -33,7 +33,7 @@ public class IncorytheAxeItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 13.8f;
+				return 10.8f;
 			}
 
 			public int getHarvestLevel() {
