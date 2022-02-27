@@ -47,7 +47,7 @@ public class GarniteAxeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(GarniteIngotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -3.4f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("garnite_axe"));
 	}
 }
