@@ -33,7 +33,7 @@ public class KnightShovelItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 13.1f;
+				return 11.1f;
 			}
 
 			public int getHarvestLevel() {
