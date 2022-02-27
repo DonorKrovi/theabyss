@@ -33,7 +33,7 @@ public class PhantomAxeItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 13f;
+				return 11f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class PhantomAxeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(PhantomIngotItem.block));
 			}
-		}, 1, -2f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -3.6f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("phantom_axe"));
 	}
 }
