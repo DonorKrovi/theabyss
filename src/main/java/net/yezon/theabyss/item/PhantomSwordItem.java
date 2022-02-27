@@ -33,7 +33,7 @@ public class PhantomSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 8.5f;
+				return 5.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class PhantomSwordItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(PhantomEssenceItem.block));
 			}
-		}, 3, -1.8f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.7f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 		}.setRegistryName("phantom_sword"));
 	}
 }
