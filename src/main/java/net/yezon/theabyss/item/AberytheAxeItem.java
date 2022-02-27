@@ -47,7 +47,7 @@ public class AberytheAxeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AberytheGemItem.block));
 			}
-		}, 1, -1.5f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("aberythe_axe"));
 	}
 }
