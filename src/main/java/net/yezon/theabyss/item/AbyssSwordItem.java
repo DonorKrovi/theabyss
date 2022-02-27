@@ -61,7 +61,7 @@ public class AbyssSwordItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.9f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 			@Override
 			public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 				ActionResult<ItemStack> retval = super.onItemRightClick(world, entity, hand);
