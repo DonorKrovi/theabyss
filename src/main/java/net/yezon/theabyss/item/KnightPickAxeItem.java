@@ -47,7 +47,7 @@ public class KnightPickAxeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(KnightIngotItem.block));
 			}
-		}, 1, -1.5f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -3.5f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("knight_pick_axe"));
 	}
 }
