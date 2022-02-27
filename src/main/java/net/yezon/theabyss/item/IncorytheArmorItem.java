@@ -56,7 +56,7 @@ public class IncorytheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{4, 7, 7, 5}[slot.getIndex()];
+				return new int[]{4, 5, 4, 5}[slot.getIndex()];
 			}
 
 			@Override
@@ -82,12 +82,12 @@ public class IncorytheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public float getToughness() {
-				return 4f;
+				return 2f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.5f;
+				return 0.1f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(TheAbyssArmorItemGroup.tab)) {
