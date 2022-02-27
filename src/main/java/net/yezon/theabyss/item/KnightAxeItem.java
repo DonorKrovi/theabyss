@@ -33,7 +33,7 @@ public class KnightAxeItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 15.5f;
+				return 11.1f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class KnightAxeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(KnightIngotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -3.6f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("knight_axe"));
 	}
 }
